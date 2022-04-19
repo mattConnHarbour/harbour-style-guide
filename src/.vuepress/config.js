@@ -28,24 +28,32 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
+    editLinks: true,
     docsDir: '',
-    editLinkText: '',
+    editLinkText: 'Edit me',
     lastUpdated: false,
-    // nav: [
-    //   {
-    //     text: 'Guide',
-    //     link: '/guide/',
-    //   },
-    //   {
-    //     text: 'Config',
-    //     link: '/config/'
-    //   },
-    //   {
-    //     text: 'VuePress',
-    //     link: 'https://v1.vuepress.vuejs.org'
-    //   }
-    // ],
+    nav: [
+      {
+        text: 'Colors',
+        link: '/colors/',
+      },
+      {
+        text: 'Iconography',
+        link: '/iconography/'
+      },
+      {
+        text: 'Typography',
+        link: '/typography/'
+      },
+      {
+        text: 'Elements',
+        link: '/elements/'
+      },
+      {
+        text: 'Proposals',
+        link: '/proposals/'
+      },
+    ],
     // sidebar: {
     //   '/guide/': [
     //     {
